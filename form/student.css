@@ -1,0 +1,47 @@
+h1 {
+    text-align: center;
+}
+
+body {
+    background-color: rgb(7, 131, 7);
+}
+#bigbox {
+    background-color: white;
+    margin: auto;
+    width: 550px;
+    height: 1000px; 
+    
+    
+}
+.element {
+    width: 400px;
+    height: 80px;
+    margin-left: 20px;
+    padding-top: 15px;
+    
+}
+.form-box {
+    width: 400px;
+    height: 35px;
+    font-size: 16px;
+}
+.display {
+    font-size: 20px;
+}
+#role {
+    width: 400px;
+    height: 35px;
+    font-size: 16px;
+}
+.friend {
+    font-size: 20px;
+}
+button {
+    background-color: green;
+    text-align: center;
+    height: 35px;
+    width: 400px;
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 20px;
+}

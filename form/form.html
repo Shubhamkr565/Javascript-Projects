@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Student Form</title>
+        <link rel="stylesheet" href="student.css">
+    </head>
+    <body>
+        <h1>Student Form</h1>
+        <div id="bigbox">
+            <form>
+                <div class="element">
+                    <label class="display">Name</label><br>
+                    <input class="form-box" type="text" placeholder="Enter your name">
+                </div>
+                <div class="element">
+                    <label class="display">Email</label><br>
+                    <input class="form-box" type="text" placeholder="Enter your email">
+                </div>
+                <div class="element">
+                    <label class="display">Age</label><br>
+                    <input class="form-box" type="text" placeholder="Enter your age">
+                </div>
+                <div class="element">
+                    <label class="display">Which you option best describes you?</label><br>
+                    <select name="role" id="role">
+                        <option value="Student">Student</option>
+                        <option value="Inter">inter</option>
+                        <option value="Professional">Professional</option>
+                        <option value="Other">Other</option>
+                    </select>
+                </div>
+                <div class="element">
+                    <label class="display">Would you recommed Shubham to a friend?</label>
+                    <br><br>
+                    <input type="radio" id="Yes" name="friend" value="Yes">
+                    <label class="display">Yes</label><br>
+                    <input type="radio" id="No" name="friend" value="No">
+                    <label class="display">No</label><br>
+                    <input type="radio" id="Maybe" name="friend" value="Maybe">
+                    <label class="display">Maybe</label>
+                </div><br><br><br>
+                <div class="element">
+                    <label class="display">Languages and Frameworks known (Check all that apply)</label>
+                    <br><input type="checkbox">
+                    <label class="display">C</label>
+                    <br><input type="checkbox">
+                    <label class="display">C++</label>
+                    <br><input type="checkbox">
+                    <label class="display">C#</label>
+                    <br><input type="checkbox">
+                    <label class="display">Java</label>
+                    <br><input type="checkbox">
+                    <label class="display">Python</label>
+                    <br><input type="checkbox">
+                    <label class="display">JavaScript</label>
+                    <br><input type="checkbox">
+                    <label class="display">React</label>
+                    <br><input type="checkbox">
+                    <label class="display">Angular</label>
+                    <br><input type="checkbox">
+                    <label class="display">Django</label>
+                    <br><input type="checkbox">
+                    <label class="display">Spring</label>
+
+                    <div class="element">
+                        <label class="display">Any comments or suggestions</label>
+                        <br><input class="form-box" type="text">
+                    </div>
+                    <button>Submit</button>
+                </div>
+                
+            </form>
+            <script src="form.js" charset="utf-8"></script>
+        </div>
+    </body>
+</html>
