@@ -1,0 +1,22 @@
+body{
+    transition: 0.5s;
+}
+#container {
+    /* border: 1px solid red; */
+    width: 700px;
+    height: 200px;
+    border-radius: 20px;
+    text-align: center;
+    margin: auto;
+    margin-top: 300px;
+}
+button {
+    width: 500px;
+    height: 80px;
+    margin-top: 25 px;
+    text-align: center;
+    font-size: 50px;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+}
