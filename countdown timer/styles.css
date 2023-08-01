@@ -1,0 +1,36 @@
+body {
+    background-color: slategrey;
+}
+h1 {
+    text-align: center;
+    font-size: 50px;
+}
+h2 {
+    text-align: center;
+    font-size: 40px;
+}
+#box {
+    
+    width: 850px;
+    height: 150px;
+    margin: auto;
+}
+#container {
+    display: flex;
+    text-align: center;
+    margin: auto;
+
+
+}
+input {
+    width: 150px;
+    height: 60px;
+    margin: 20px;
+    border-radius: 10pX;
+    text-align: center;
+    font-size: 40px;
+    
+}
+input {
+    display: block;
+}
